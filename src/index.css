@@ -8,8 +8,9 @@ body {
 .App {
   display: grid;
   grid-template-columns: 1.2fr 1fr 1fr;
-  grid-template-rows: fr;
+  grid-template-rows: 1fr;
   min-height: 100%;
+  max-width: 100%;
 }
 
 .panel {
