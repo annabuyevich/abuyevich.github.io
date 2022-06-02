@@ -6,7 +6,8 @@
 
 .panel.contact img {
   max-width: 100%;
-  min-height: 100%;
+  height: auto;
+  align-self: end;
 }
 
 ul {
@@ -35,7 +36,7 @@ ul {
   font-size: 2em;
   border-bottom: solid #1121376e;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 .panel.contact div {
@@ -46,22 +47,20 @@ ul {
   .panel.contact {
     grid-template-columns: 1fr 1fr;
     grid-column: span 2;
-  }
-
-  .panel.contact {
-    grid-column: span 2;
-    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
 
   .panel.contact img {
-    height: 100%;
+    height: 400px;
+    object-fit: fill;
+    max-width: 100%;
   }
 }
 
 @media only screen and (max-width: 960px) {
   .panel.contact {
     grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
   }
 
   .panel.contact div {
@@ -70,5 +69,6 @@ ul {
 
   .panel.contact img {
     grid-column: span 2;
+    width: 100%;
   }
 }
