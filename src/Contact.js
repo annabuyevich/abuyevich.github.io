@@ -1,3 +1,4 @@
+import "./Contact.css";
 import ContactList from "./ContactList";
 import landscape from "./assets/img1.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -25,13 +26,13 @@ const Contact = () => {
   ];
 
   return (
-    <div className="panel contact">
+    <section className="panel contact">
       <div className="text">
         <h2>Click Below</h2>
         {contacts && <ContactList contacts={contacts} />}
       </div>
       <img src={landscape} alt="landscape" />
-    </div>
+    </section>
   );
 };
 

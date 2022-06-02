@@ -1,14 +1,14 @@
 const ContactList = ({ contacts }) => {
   return (
-    <div className="contact-list">
+    <ul className="contact list">
       {contacts.map((contact) => (
-        <div className="contact-preview" key={contact.name}>
+        <li className="contact preview" key={contact.name}>
           <a href={contact.link}>
             {contact.icon} {contact.name}
           </a>
-        </div>
+        </li>
       ))}
-    </div>
+    </ul>
   );
 };
 
