@@ -33,3 +33,10 @@
     grid-column: span 2;
   }
 }
+
+@media only screen and (max-width: 680px) {
+  .panel.about {
+    padding: 30px 40px;
+    grid-template-rows: 0.5fr 1fr;
+  }
+}

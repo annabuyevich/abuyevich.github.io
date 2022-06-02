@@ -72,3 +72,9 @@ ul {
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 680px) {
+  .panel.contact div {
+    padding-bottom: 30px;
+  }
+}

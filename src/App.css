@@ -15,3 +15,9 @@
     grid-template-rows: 1fr 1fr 1fr;
   }
 }
+
+@media only screen and (max-width: 680px) {
+  .App {
+    grid-template-rows: 800px 700px 600px;
+  }
+}
