@@ -1,14 +1,19 @@
-name: Website Continuous Integration
-
+name: Build and DEploy
 on: [push]
 
+permissions:
+  contents: write
+
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 16
-      - run: npm ci
-      - run: npm run deploy
+      - name: Checkout
+        uses: actions/checkout@v2
+    
+      - name: Install and Build
+        run: |
+        npm ci
+        npm run deploy
+      
+
