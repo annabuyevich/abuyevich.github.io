@@ -52,9 +52,9 @@ ul {
   }
 
   .panel.contact img {
-    height: 400px;
     object-fit: fill;
     max-width: 100%;
+    min-height: 100%;
   }
 
   .panel.contact h2 {
@@ -75,11 +75,16 @@ ul {
   .panel.contact img {
     grid-column: span 2;
     width: 100%;
+    justify-self: left;
   }
 }
 
 @media only screen and (max-width: 680px) {
-  .panel.contact div {
-    padding-bottom: 30px;
+  .panel.contact h2 {
+    padding-top: 10px;
+  }
+
+  .panel.contact ul {
+    padding-top: 0;
   }
 }
