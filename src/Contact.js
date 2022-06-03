@@ -1,12 +1,18 @@
 import "./Contact.css";
 import ContactList from "./ContactList";
 import landscape from "./assets/img1.jpg";
+import resume from "./assets/website_resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faFilePen } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
   const contacts = [
+    {
+      link: resume,
+      name: "Resume",
+      icon: <FontAwesomeIcon icon={faFilePen} />,
+    },
     {
       link:
         "https://www.linkedin.com/in/annabuyevich/%3E?original_referer=https%3A%2F%2Fannabuyevich.com%2F",
@@ -22,12 +28,6 @@ const Contact = () => {
       link: "https://github.com/annabuyevich",
       name: "Github",
       icon: <FontAwesomeIcon icon={faGithub} />,
-    },
-    {
-      link:
-        "https://drive.google.com/file/d/1njrQuvETryvDhKIUXMSAZbWybsOv-Gvg/view?usp=sharing",
-      name: "Resume",
-      icon: <FontAwesomeIcon icon={faFilePen} />,
     },
   ];
 
