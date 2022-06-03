@@ -28,7 +28,7 @@ const Contact = () => {
   return (
     <section className="panel contact">
       <div className="text">
-        <h2>Click Below</h2>
+        <h2>Contact Me</h2>
         {contacts && <ContactList contacts={contacts} />}
       </div>
       <img src={landscape} alt="landscape" />
