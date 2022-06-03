@@ -10,9 +10,9 @@ const About = () => {
         <FontAwesomeIcon icon={faHandPeace} />
       </h1>
       <p>
-        I'm Anna (AH-na). I'm a software engineer. I like thinking about code.
-        Some of my interests include backend work, delving into new frameworks,
-        piano, learning new languages, and traveling.
+        I'm Anna (AH-na), a software engineer who likes thinking about code. My
+        interests include solving real-world problems, delving into new
+        frameworks, playing piano, learning new languages, and traveling.
       </p>
     </section>
   );
