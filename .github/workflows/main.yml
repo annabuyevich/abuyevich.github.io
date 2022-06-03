@@ -19,4 +19,6 @@ jobs:
       - name: Run commands
         run: |
           npm ci
+          git config --global user.name "Anna Buyevich"
+          git config --global user.email "avbuyevich@gmail.com"
           npm run deploy
