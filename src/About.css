@@ -40,4 +40,8 @@
     padding: 30px 40px;
     grid-template-rows: 0.5fr 1fr;
   }
+
+  .panel.about p {
+    padding-top: 10px;
+  }
 }
