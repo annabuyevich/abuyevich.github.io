@@ -14,10 +14,10 @@
 
 .panel.photos h2 {
   text-align: center;
-  padding-top: 60px;
+  padding-top: 80px;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1600px) {
   .panel.photos {
     grid-template-rows: 2fr 1fr;
     grid-row: span 1;
