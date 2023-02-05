@@ -1,5 +1,5 @@
 import "./Photos.css";
-import photo from "./assets/website_photo.jpg";
+import photo from "./assets/img3.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMountainSun } from "@fortawesome/free-solid-svg-icons";
 
